@@ -1,8 +1,9 @@
 ### TWRP device tree for Redmi note12T pro (pearl)
 
 =========================================
-![Redmi note12T pro](https://img2.imgtp.com/2024/03/07/7gLhcWh3.jpg)
+
 The Redmi note12T pro (codenamed _"pearl"_) is a high-end, mid-range smartphone from Xiaomi.
+![Redmi note12T pro](https://img2.imgtp.com/2024/03/07/7gLhcWh3.jpg)
 
 ## Device specifications
 
