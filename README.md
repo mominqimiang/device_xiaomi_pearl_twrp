@@ -17,3 +17,6 @@ Shipped Android Version | 13
 Storage | 256 GB (UFS 3.1)
 Battery | Li-Po 5080 mAh, non-removable
 Display | 1220 x 2712 pixels, 6.6 inches, LCD,60/120 hz
+
+## Donate me
+![mmqmem](https://img2.imgtp.com/2024/03/05/FdGtaESF.jpg)
