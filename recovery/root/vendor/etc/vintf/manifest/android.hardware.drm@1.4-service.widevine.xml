@@ -17,7 +17,7 @@
     <hal format="hidl">
         <name>android.hardware.drm</name>
         <transport>hwbinder</transport>
-        <fqname>@1.4::ICryptoFactory/clearkey</fqname>
-        <fqname>@1.4::IDrmFactory/clearkey</fqname>
+        <fqname>@1.4::ICryptoFactory/widevine</fqname>
+        <fqname>@1.4::IDrmFactory/widevine</fqname>
     </hal>
 </manifest>
