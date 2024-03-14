@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),zircon)
+ifeq ($(TARGET_DEVICE),pearl)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
