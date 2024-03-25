@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/zircon
+DEVICE_PATH := device/xiaomi/pearl
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 31
