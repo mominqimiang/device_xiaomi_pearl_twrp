@@ -58,6 +58,7 @@ iommu_secure.ko
 iommu_debug.ko
 mtk_iommu.ko
 iommu_test.ko
+mi_page_pool.ko
 mtk_mm_heap.ko
 system_heap.ko
 mtk-cmdq-drv-ext.ko
@@ -246,6 +247,7 @@ iommu_secure.ko
 iommu_debug.ko
 mtk_iommu.ko
 iommu_test.ko
+mi_page_pool.ko
 mtk_mm_heap.ko
 system_heap.ko
 mtk-cmdq-drv-ext.ko

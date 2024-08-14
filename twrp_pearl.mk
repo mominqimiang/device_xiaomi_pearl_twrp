@@ -42,3 +42,4 @@ PRODUCT_RELEASE_NAME := Redmi Note 12T Pro
 
 # Hide Reflash TWRP
 PRODUCT_PROPERTY_OVERRIDES += ro.twrp.vendor_boot=true
+

@@ -18,7 +18,7 @@ DEVICE_PATH := device/xiaomi/pearl
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 31
-PRODUCT_TARGET_VNDK_VERSION := 33
+PRODUCT_TARGET_VNDK_VERSION := 34
 
 # A/B
 AB_OTA_UPDATER := true
@@ -79,11 +79,13 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # Additional Target Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \
+    android.hardware.keymaster@4.1 \
     android.hardware.graphics.common@1.0 \
     libion \
     libxml2
 
 TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.keymaster@4.1.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.graphics.common@1.0.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so
@@ -107,6 +109,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
+
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1
+
+# Keymint
+PRODUCT_PACKAGES += \
+    android.hardware.security.keymint \
+    android.hardware.security.secureclock \
+    android.hardware.security.sharedsecret
+
+# Keystore2
+PRODUCT_PACKAGES += \
+    android.system.keystore2
 
 # Mtk plpath utils
 PRODUCT_PACKAGES += \
